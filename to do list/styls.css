@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #4285f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+section{
+    background-color: #fff;
+    border-radius: 6px;
+    padding:10px;
+    width: 450px;
+    border-radius: 6px;
+    box-shadow: 0 0 0 rgba(0,0,0, 0.1);
+    overflow: hidden;
+}
+h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.full_input{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+input{
+    border: 1px solid #b3b2b2;
+    outline: 0;
+    padding: 10px 5px;
+    height: 39px;
+    border-radius: 6px 0 0 6px;
+    width: 98%;
+}
+button{
+    width: 10%;
+    font-size: 20px;
+    height: 39px;
+    border: 0;
+    background-color: #4285f4;
+    color: #fff;
+    border-radius: 0 6px 6px 0;
+}
+.paragraph-style{
+    margin: 10px 0;
+    padding: 10px 0;
+    padding-left: 5px;
+    border-radius: 6px;
+    color: #fff;
+    background-color: #699df0;
+    word-break: break-all;
+    cursor: pointer;
+    animation: anime 0.5s linear;
+}
+.paragraph-style:last-child{
+    margin-bottom: 0;
+}
+@keyframes anime{
+    fro{
+        transform: translatey(50px)
+    }
+}
+.paragraphe_click{
+    background-color: rgb(247, 118,118);
+    text-decoration: line-through;
+}

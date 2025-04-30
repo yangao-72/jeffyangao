@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raccourcisseur de lien</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Application Raccourcisseur de lien</h1>
+        <p>Mettez un lien valide, sinon ça ne marchera pas !</p>
+    </header>
+    <section>
+        <main>
+            <p class="error_message"></p>
+            <input type="text" placeholder="Lien à raccourcir" class="long_link">
+            <button onclick="shortlinkFunction()">Raccourcir le lien</button>
+            <div class="result" style="display: none;">exemple.com</div>
+        </main>
+    </section>
+    <script src="scrypt.js"></script>
+</body>
+</html>

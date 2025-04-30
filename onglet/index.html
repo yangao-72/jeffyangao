@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>onglets</title>
+    <link rel="stylesheet" href="styls.css">
+</head>
+<body>
+    <div class="tab">
+        <button onclick="openonglet(event, 'home')" class="tablinks">Home</button>
+        <button onclick="openonglet(event, 'contact')" class="tablinks">contact</button>
+        <button onclick="openonglet(event, 'reservation')" class="tablinks">reservation</button>
+        <button onclick="openonglet(event, 'boutique')" class="tablinks">boutique</button>
+    </div>
+    
+   <div class="tabcontent" id="home">
+    <h3>home</h3>
+    <p>bienvenue sur la page home</p>
+    <div class="picture">
+        <img src="image1.jpeg">
+    </div>
+   </div>
+   <div class="tabcontent" id="contact">
+    <h3>contact</h3>
+    <p>bienvenue sur la page de contact</p>
+    <div class="picture">
+        <img src="images 2.jpeg">
+    </div>
+   </div>
+   <div class="tabcontent" id="reservation">
+    <h3>reservation</h3>
+    <p>bienvenue sur la page de reservation</p>
+    <div class="picture">
+        <img src="images 3.jpeg">
+    </div>
+   </div>
+   <div class="tabcontent" id="boutique">
+    <h3>boutique</h3>
+    <p>bienvenue sur la page de boutique</p>
+    <div class="picture">
+        <img src="images 2.jpeg">
+    </div>
+   </div>
+    <script src="script.js"></script>
+</body>
+</html>
